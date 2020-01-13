@@ -1,0 +1,48 @@
+.left-div
+{
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 15px;
+}
+
+
+@media screen and (max-width: 600px) 
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px){
+   .navbar-brand{
+    margin-top: -50px !important;
+   }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 500px){
+   .foot{
+   font-size: 20px !important;
+   }
+
+}
+.back{
+  background-image: url(../img/Apple.png !important);
+  text-align: center;
+  color: white; 
+}
